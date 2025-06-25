@@ -7,3 +7,4 @@ for char in input_string:
         print(char.upper(), end="")
     else:
         print(char, end="")
+print()  # Print a newline at the end
