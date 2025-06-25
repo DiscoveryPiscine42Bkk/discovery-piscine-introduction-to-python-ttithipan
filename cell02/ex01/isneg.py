@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 number = input("Enter a number: ")
 try:
     number = int(number)

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 number1 = input("Enter the first number: ")
 number2 = input("Enter the second number: ")
 try:
