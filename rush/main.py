@@ -7,6 +7,4 @@ R...
 ....
 '''
 
-print(
-    checkmate.game_state_iterator(board.split(),
-                                  checkmate.check_board_size(board)))
+print(checkmate.game_state_iterator(board.split(), checkmate.check_board_size(board)))
