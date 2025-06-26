@@ -1,13 +1,12 @@
-from checkmate import *
+import checkmate
 
-def main():
-    board = """\
+board = '''
+R...
+.K..
 ....
-R..K
 ....
-....\
-"""
-    checkmate(board)
+'''
 
-if __name__ == "__main__":
-    main()
+print(
+    checkmate.game_state_iterator(board.split(),
+                                  checkmate.check_board_size(board)))
